@@ -1,0 +1,365 @@
+.w {
+    width: 1151px;
+    margin: 0 auto;
+}
+
+
+/*页首部分*/
+    /*页首背景部分*/
+header .bgs {
+    width: 100%;
+    height: 949px;
+    position: absolute;
+    z-index: -1;
+}
+header .bgs .bg-1 {
+    background: url("../images/meishi1.jpg") no-repeat;
+    height: 237px;
+}
+header .bgs .bg-2 {
+    background: url("../images/meishi2.jpg") no-repeat;
+    height: 238px;
+}
+header .bgs .bg-3 {
+    background: url("../images/meishi3.jpg") no-repeat;
+    height: 237px;
+}
+header .bgs .bg-4 {
+    background: url("../images/meishi4.jpg") no-repeat;
+    height: 237px;
+}
+    /*页首--顶部信息部分*/
+header .drag-topMessage {
+    width: 100%;
+    height: 52px;
+    background: #f65a5b;
+    font-size: 10px;
+    line-height: 52px;
+    color: #fff;
+    text-align: center;
+}
+header .topMessage {
+    height: 52px;
+}
+header .drag-topMessage .left {
+    float: left;
+}
+header .drag-topMessage .left a {
+    color: #fff;
+    padding: 0 20px;
+}
+header .drag-topMessage .register {
+    border-right: 1px solid #fff;
+}
+header .drag-topMessage .right {
+    float: right;
+    margin-right: 30px;
+    height: 100%;
+}
+header .drag-topMessage .searchBtn {
+    display: inline-block;
+    font-size: 0;
+    width: 46px;
+    height: 52px;
+}
+header .drag-topMessage .searchBtn img{
+    width: 46px;
+    height: 52px;
+}
+header .drag-topMessage .shopCar {
+    position: relative;
+    bottom: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 0;
+    width: 117px;
+    height: 38px;
+}
+header .drag-topMessage .logo {
+    height: 52px;
+    margin-left: 55px;
+}
+    /*页首--导航栏模块*/
+header nav li {
+    width: 191px;
+    height: 60px;
+    border-right: 1px solid #fff;
+    background: rgba(255, 255, 255, 0.44);
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+header nav .lastLi {
+    border-right: none;
+}
+header nav .curr,
+header nav li:hover{
+    background: #204056;
+}
+header nav .curr a,
+header nav li:hover a{
+    color: #fff;
+}
+header nav li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #000;
+    line-height: 60px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+    /*页首---内容部分*/
+header .content {
+    text-align: center;
+}
+header .content .top i{
+    display: block;
+    background: url("../images/top-img-1.png") no-repeat;
+    width: 174px;
+    height: 146px;
+    position: relative;
+    top: 38px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+header .content .top h1 {
+    font-size: 36px;
+    color: #f65a5b;
+    margin-top: 40px;
+}
+header .content .top h2 {
+    font-size: 36px;
+    color: #fff;
+    margin-top: 30px;
+}
+header .content .top .advise {
+    display: block;
+    width: 188px;
+    height: 46px;
+    line-height: 46px;
+    background: #f65a5b;
+    color: #fff;
+    font-size: 15px;
+    margin: 40px auto;
+}
+    /*页首---内容---底部部分*/
+header .content .bottom {
+    margin-right: -44px;
+    margin-top: 112px;
+}
+header .content .bottom .message {
+    float: left;
+    width: 353px;
+    margin-right: 45px;
+}
+header .content .bottom .message div {
+    height: 174px;
+    background: rgba(255, 255, 255, 0.52);
+}
+header .content .bottom .message img {
+    margin-top: 22px;
+}
+header .content .bottom .message h3 {
+    font-size: 15px;
+}
+header .content .bottom .message p {
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    padding: 20px 30px;
+}
+/*section通用标题*/
+section h1.title {
+    display: inline-block;
+    font-size: 18px;
+    color: #f65a5b;
+    padding: 0 50px 20px;
+    border-bottom: 1px solid black;
+}
+/*section第一节*/
+.sec-1 {
+    width: 100%;
+    background: #fff;
+    text-align: center;
+}
+.sec-1 h1 {
+    margin-top: 55px;
+}
+.sec-1 p {
+    width: 663px;
+    margin: 27px auto;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: left;
+    text-indent: 28px;
+}
+.sec-1 .images {
+    margin-bottom: 67px;
+}
+.sec-1 .images img {
+    float: left;
+    width: 350px;
+    height: 270px;
+    margin-right: 50px;
+    margin-bottom: 33px;
+}
+.sec-1 .images img:nth-child(3n) {
+    margin-right: 0;
+}
+/*section第二节*/
+.sec-2 {
+    width: 100%;
+    background: #6a737b;
+    padding: 104px 0;
+}
+.sec-2 .w{
+    position: relative;
+}
+.sec-2 .right {
+    display: inline-block;
+    width: 545px;
+    margin-left: 35px;
+    font-size: 14px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+}
+.sec-2 img {
+    width: 446px;
+    height: 394px;
+}
+.sec-2 .right h2 {
+    margin: 53px 0;
+    font-size: 14px;
+}
+.sec-2 .right p {
+    text-indent: 14px;
+    line-height: 28px;
+}
+/*section第三节*/
+.sec-3 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 98px;
+}
+.sec-3 .title {
+    margin: 100px 0 50px;
+}
+.sec-3 .introduce {
+    margin-right: -20px;
+}
+.sec-3 .introduce div {
+    width: 254px;
+    padding: 16px;
+    border: 1px solid #eaeaea;
+    border-right: none;
+    float: left;
+}
+.sec-3 .introduce div:last-child {
+    border-right: 1px solid #eaeaea;
+}
+.sec-3 .introduce img {
+    width: 254px;
+    height: 168px;
+}
+.sec-3 .introduce h2 {
+    font-size: 15px;
+    height: 48px;
+    line-height: 48px;
+    color: #fff;
+    background: #204056;
+    width: 253px;
+}
+.sec-3 .introduce p {
+    width: 235px;
+    font-size: 10px;
+    text-indent: 20px;
+    line-height: 20px;
+    margin-top: 15px;
+    text-align: left;
+}
+.sec-3 .introduce a {
+    float: left;
+    font-size: 10px;
+    color: #f65a65;
+    margin-top: 30px;
+}
+/*页尾部分*/
+footer .top {
+    height: 310px;
+    background: #6a737b;
+    position: relative;
+}
+footer .top .nav {
+    float: left;
+    margin-right: 183px;
+    margin-top: 72px;
+}
+footer .top .nav:last-child {
+    margin-right: 0;
+}
+footer .top h2 {
+    font-size: 14px;
+    color: #f65a5b;
+    margin-bottom: 10px;
+}
+footer .top li {
+    margin-bottom: 10px;
+}
+footer .top .w a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
+    color: #fff;
+}
+footer .top li:hover a {
+    color: #f65a5b;
+}
+footer .top .backTop {
+    position: absolute;
+    right: 10px;
+    width: 34px;
+    height: 41px;
+    animation: backTopMove .6s linear infinite;
+}
+@keyframes backTopMove {
+    from {
+        bottom: 10px;
+    }
+    to {
+        bottom: 25px;
+    }
+}
+footer .bottom {
+    width: 100%;
+    height: 60px;
+    background: #f65a5b;
+    font-size: 10px;
+    color: #fff;
+}
+footer .bottom .w {
+    position: relative;
+}
+footer .bottom p {
+    text-align: center;
+    line-height: 60px;
+}
+footer .bottom .links {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-41%);
+}
+footer .bottom .links a{
+    display: inline-block;
+    width: 40px;
+    height: 39px;
+}
+footer .bottom .links a img{
+    width: 100%;
+    height: 100%;
+}
+
